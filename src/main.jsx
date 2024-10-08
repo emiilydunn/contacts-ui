@@ -18,10 +18,6 @@ const router = createBrowserRouter([
     element: <Create />
   },
   {
-    path: "/delete/:id",
-    element: <Delete />
-  },
-  {
     path: "/read/:id",
     element: <Read />
   },
@@ -29,6 +25,11 @@ const router = createBrowserRouter([
     path: "/update/:id",
     element: <Update />
   },
+  {
+    path: "/delete/:id",
+    element: <Delete />
+  },
+ 
 ]);
 
 
